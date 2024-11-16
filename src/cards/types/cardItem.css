@@ -1,0 +1,67 @@
+.card {
+  width: 220px;
+  height: 350px;
+  border: 3px solid #6d6d6d;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  margin: 20px 0px;
+}
+
+.card .cardDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 30%;
+}
+
+.card .cardImage {
+  background: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.card img {
+  background: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.card h3 {
+  color: blue;
+  margin: 5px auto;
+  background: grey;
+  width: 70%;
+  text-align: center;
+  border-radius: 7px;
+  padding: 3px;
+  letter-spacing: 1px;
+}
+
+.card p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 2px 0;
+  background: white;
+  border-radius: 2px;
+  padding: 3px;
+  letter-spacing: 1px;
+  border: 2px solid black;
+  color: black;
+}
+/*# sourceMappingURL=cardItem.css.map */

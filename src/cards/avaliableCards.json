@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Card 1",
+    "types": ["Type 1", "Type 2"],
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "Card 2",
+    "types": ["Type 3"],
+    "image": "https://via.placeholder.com/150"
+  }
+]
